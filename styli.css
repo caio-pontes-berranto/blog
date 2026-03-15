@@ -1,67 +1,80 @@
-
-
-.container{
-display: grid;
-grid-auto-flow: column;
-grid-auto-columns: 1fr;
+body {
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
-#info lu{
+body p {
+    color: #575455;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+#info ul {
   margin: 0;
   padding: 0;
 }
 
 #info li {
-display: inline-block;
-margin-left: 20px;
+  display: inline-block;
+  margin-left: 20px;
 }
 
-
-
-
-/* daq pra baixo e improviso */ 
-#cabecario{
-    display: grid;
-    grid-auto-flow: column;
-    font-family: Hubballi;
-    text-transform: uppercase;
-    grid-template-columns: 50% auto;
-    align-items: center;
-    margin-left: 50px;   
+#cabecario {
+  font-family: poppins;
+  text-transform: uppercase;
 }
 
-#info{
-margin-left: 100px;
-font-family: Poppins;
+#info {
+  gap: 30px;
+  display: flex;
+  margin-left: 100px;
+  font-family: Poppins;
 }
 
-
-#apresentacao{
-    display: grid;
-    grid-auto-flow: column;
-    margin-top: 100px;
-    margin-left: 50px;
-    font-family: poppins;
+#apresentacao {
+  padding-top: 5%;
+  font-family: poppins;
 }
 
-#foto{
-    border-radius: 16px;
+#foto {
+  border-radius: 16px;
 }
 
-#button{
-  border-radius: 16px;  
+#button {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 16px;
   color: white;
   background-color: #1F7CFF;
 }
 
 #clientes{
-  font-weight:normal;
-  display: flex;      
-  gap: 30px;          
-  list-style: none;     
-  padding: 0;
-  margin: 0;
-  color: #070F18;
-  
+  margin-top: 20px;
 }
 
+#servico{
+  text-align: center;
+}
+
+#red{
+  color: #F75C4E;
+  margin-bottom: 0%;
+}
+
+#servico p{
+  font-family: poppins; 
+}
+
+#servico h1{
+  font-family: poppins;
+}
+
+.servico{
+  padding-top: 50px;
+font-family: poppins;
+text-align: center;
+}
